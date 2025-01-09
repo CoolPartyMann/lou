@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reception Desk App</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Reception Desk App</h1>
+  <div id="app">
+    <h2>Create Product</h2>
+    <input type="text" id="productName" placeholder="Product Name">
+    <input type="number" id="productQuantity" placeholder="Quantity">
+    <button id="addProduct">Add Product</button>
+
+    <h2>Buy Product</h2>
+    <input type="number" id="productCode" placeholder="Product Code">
+    <div id="productDetails"></div>
+    <input type="text" id="customerName" placeholder="Customer Name">
+    <input type="date" id="customerBirthday">
+    <input type="date" id="purchaseDate">
+    <button id="buyProduct">Buy Product</button>
+
+    <h2>Search Purchase</h2>
+    <input type="number" id="searchCode" placeholder="Purchase Code">
+    <button id="searchPurchase">Search</button>
+    <div id="purchaseDetails"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
